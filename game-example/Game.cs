@@ -18,7 +18,9 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("Asset Load Graphics");
+            Window.SetSize(400, 400);
+            // load graphics
         }
 
         /// <summary>
@@ -26,7 +28,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-
+            Window.ClearBackground(Color.OffWhite);
+            // show graphics
         }
     }
 
